@@ -1,4 +1,4 @@
-Title: 搭建静态博客
+Title: 使用Pelican搭建静态博客
 Date: 2014-05-16
 Category: Pelican 
 Tags: pelican, blog

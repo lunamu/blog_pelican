@@ -16,14 +16,13 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+LINKS =  (('Google', 'http://www.google.com/'),
+          ('Stack Overflow', 'http://www.stackoverflow.com/')
+          )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'http://www.github.com/lunamu/'),
+        ('微博', 'http://www.weibo.com/lunathenext'))
 
 DEFAULT_PAGINATION = 10
 

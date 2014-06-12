@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>CSWalker</title>
+    <title>使用Pelican搭建静态博客</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="lunamu">
@@ -64,7 +64,7 @@
           <div class="nav-collapse">
             <ul class="nav">
                           <li class="divider-vertical"></li>
-                  <li >
+                  <li class="active">
                     <a href="/category/pelican.html">
 						<i class="icon-folder-open icon-large"></i>Pelican
 					</a>
@@ -84,9 +84,73 @@
     <div class="container-fluid">
       <div class="row">
         <div class="span9" id="content">
+<section id="content">
+        <article>
+                <header>
+                        <h1>
+                                <a href=""
+                                        rel="bookmark"
+                                        title="Permalink to 使用Pelican搭建静态博客">
+                                        使用Pelican搭建静态博客
+                                </a>
+                        </h1>
+                </header>
+                <div class="entry-content">
+                <div class="well">
+<footer class="post-info">
+<span class="label">Date</span>
+<abbr class="published" title="2014-05-16T00:00:00">
+        <i class="icon-calendar"></i>Fri 16 May 2014
+</abbr>
+<span class="label">By</span>
+<a href="/author/lunamos.html"><i class="icon-user"></i>Lunamos</a>
+<span class="label">Category</span>
+<a href="/category/pelican.html"><i class="icon-folder-open"></i>Pelican</a>.
+
+
+<span class="label">Tags</span>
+	<a href="/tag/pelican.html"><i class="icon-tag"></i>pelican</a>
+	<a href="/tag/blog.html"><i class="icon-tag"></i>blog</a>
+</footer><!-- /.post-info -->                </div>
+                <blockquote>
+<p>“为什么总是忘记？因为缺乏真正的写作。”</p>
+<p>“请找一个拥有独立博客的男友。”</p>
+</blockquote>
+<p>最近对于搭建静态博客并展示学习和制作内容的愿望比较强烈，因为只有通过自己加工思考并输出的内容才能够真正成为自己的。目前希望能够有支持Markdown等语法的静态博客生成器制作静态博客。在网上调研一番，主要有以下几种：</p>
 <ul>
-	<li><a href="category/pelican.html">Pelican</a></li>
+<li>Jekyll，使用Ruby编写，静态生成支持Markdown等语法的静态站点，但速度较慢，而且需要安装Ruby环境等。</li>
+<li>Hexo，使用Node.js，速度较快。</li>
+<li>Pelican，类似Jekyll，使用Python编写，较亲近一些。</li>
 </ul>
+<p>其他没有选择的途径：</p>
+<ul>
+<li>Farbox，使用Dropbox作为博客托管站点，问题是需要付费，同时团队称可能产品无法维系太长时间，故作罢。</li>
+<li>Wordpress，基于PHP，动态站点，过于庞大。以后可能考虑自己编写博客框架。</li>
+</ul>
+<p>Github为每一个用户分配了一个二级域名username.github.io，用户为自己的二级域名创建主页很简单，只需要在Github下创建一个名为username.github.io的版本库，并向其master分支提交网站静态页面即可。
+由于Github的方便，因此目前选择Pelican，今后可能考虑移植到Hexo下。</p>
+<h2>准备</h2>
+<p>Pelican的<a href="https://pelican-docs-chs.readthedocs.org/en/latest/">中文文档</a>。
+Pelican的<a href="http://docs.getpelican.com/en/latest/">英文文档</a>。</p>
+<p>通过研读Pelican的英文文档，获知其部署方法。安装Python2.7或3.3/3.4之后，安装pip。
+下载<a href="https://bootstrap.pypa.io/get-pip.py">get-pip.py</a>，运行:</p>
+<div class="highlight"><pre>python get-pip.py
+</pre></div>
+
+
+<p>之后执行pip看是否安装成功。如果显示了ImportError: DLL load failed: %1 不是有效的 Win32 应用程序。
+表明混用了64位的Python解释器和32位的package，或者相反。</p>
+<p>之后安装pelican和markdown：</p>
+<div class="highlight"><pre>pip install pelican markdown
+</pre></div>
+
+
+<h1>使用快速部署</h1>
+<p>进入博客/网站的目录，通过pelican-quickstart对项目进行快速部署。</p>
+<p>Windows下Markdown编辑器 的选择：<a href="https://www.zybuluo.com/mdeditor">Cmd Markdown</a>。</p>
+                </div><!-- /.entry-content -->
+        </article>
+</section>
         </div><!--/span-->
 
                 <div class="span3 well sidebar-nav" id="sidebar">
