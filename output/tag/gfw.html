@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>CSWalker - blog</title>
+    <title>CSWalker - GFW</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="lunamu">
@@ -90,44 +90,30 @@
       <div class="row">
         <div class="span9" id="content">
         <div class="article">
-                <h1><a href="/shi-yong-pelicanda-jian-jing-tai-bo-ke.html">使用Pelican搭建静态博客</a></h1>
+                <h1><a href="/zai-qiang-nei-zheng-que-shi-yong-codeskulptorhe-owltest.html">在墙内正确使用CodeSkulptor和Owltest</a></h1>
                 <div class="well small"><footer class="post-info">
 <span class="label">Date</span>
-<abbr class="published" title="2014-05-16T00:00:00">
-        <i class="icon-calendar"></i>Fri 16 May 2014
+<abbr class="published" title="2014-06-11T00:00:00">
+        <i class="icon-calendar"></i>Wed 11 June 2014
 </abbr>
 <span class="label">By</span>
 <a href="/author/lunamos.html"><i class="icon-user"></i>Lunamos</a>
 <span class="label">Category</span>
-<a href="/category/pelican.html"><i class="icon-folder-open"></i>Pelican</a>.
+<a href="/category/coursera.html"><i class="icon-folder-open"></i>Coursera</a>.
 
 
 <span class="label">Tags</span>
-	<a href="/tag/pelican.html"><i class="icon-tag"></i>pelican</a>
-	<a href="/tag/blog.html"><i class="icon-tag"></i>blog</a>
+	<a href="/tag/goagent.html"><i class="icon-tag"></i>GoAgent</a>
+	<a href="/tag/gfw.html"><i class="icon-tag"></i>GFW</a>
 </footer><!-- /.post-info --></div>
-                <div class="summary"><blockquote>
-<p>“为什么总是忘记？因为缺乏真正的写作。”</p>
-<p>“请找一个拥有独立博客的男友。”</p>
-</blockquote>
-<p>最近对于搭建静态博客并展示学习和制作内容的愿望比较强烈，因为只有通过自己加工思考并输出的内容才能够真正成为自己的。目前希望能够有支持Markdown等语法的静态博客生成器制作静态博客。在网上调研一番，主要有以下几种：</p>
+                <div class="summary"><p>在Coursera上选了个Rice University的Principle of Computing，发现Scott Rixner在该课程该Owltest进行测试的方法十分方便，但在墙内无法使用，花了一下午摸索得到解决方案如下：</p>
 <ul>
-<li>Jekyll，使用Ruby编写，静态生成支持Markdown等语法的静态站点，但速度较慢，而且需要安装Ruby环境等。</li>
-<li>Hexo，使用Node.js，速度较快。</li>
-<li>Pelican，类似Jekyll，使用Python编写，较亲近一些。</li>
+<li>使用<a href="http://www.lejsq.com/">乐飞加速器</a>能够实现CodeSkulptor的保存、模块加载等功能。</li>
+<li>使用<a href="https://code.google.com/p/goagent/">GoAgent</a>配合<a href="http://www.lejsq.com/">乐飞加速器</a>能够实现OwlTest的测试功能。GoAgent的模式应当选择“GoAgent PAC”，不然会在测试界面超时。</li>
 </ul>
-<p>其他没有选择的途径：</p>
-<ul>
-<li>Farbox，使用Dropbox作为博客托管站点，问题是需要付费，同时团队称可能产品无法维系太长时间，故作罢。</li>
-<li>Wordpress，基于PHP，动态站点，过于庞大。以后可能考虑自己编写博客框架。</li>
-</ul>
-<p>Github为每一个用户分配了一个二级域名username.github.io，用户为自己的二级域名创建主页很简单，只需要在Github下创建一个名为username.github.io的版本库，并向其master分支提交网站静态页面即可。
-由于Github的方便，因此目前选择Pelican，今后可能考虑移植到Hexo下。</p>
-<h2>准备</h2>
-<p>Pelican的<a href="https://pelican-docs-chs.readthedocs.org/en/latest/">中文文档</a>。
-Pelican的<a href="http://docs.getpelican.com/en/latest/">英文文档</a>。</p>
-<p>通过研读Pelican的英文文档，获知其部署方法 ...</p>
-                        <a class="btn primary xsmall" href="/shi-yong-pelicanda-jian-jing-tai-bo-ke.html">more ...</a>
+<p>另外注意，开了GoAgent之后，CodeSkulptor就不能进行保存和模块import了，所以二者分步进行。</p>
+<p>终于有了点进行这个课的动力了。</p>
+                        <a class="btn primary xsmall" href="/zai-qiang-nei-zheng-que-shi-yong-codeskulptorhe-owltest.html">more ...</a>
                 </div>
         </div>
         <hr />
