@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CSWalker</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-06-11T00:00:00+02:00</updated><entry><title>在墙内正确使用CodeSkulptor和Owltest</title><link href="/zai-qiang-nei-zheng-que-shi-yong-codeskulptorhe-owltest.html" rel="alternate"></link><updated>2014-06-11T00:00:00+02:00</updated><author><name>Lunamos</name></author><id>tag:,2014-06-11:zai-qiang-nei-zheng-que-shi-yong-codeskulptorhe-owltest.html</id><summary type="html">&lt;p&gt;在Coursera上选了个Rice University的Principle of Computing，发现Scott Rixner在该课程该Owltest进行测试的方法十分方便，但在墙内无法使用，花了一下午摸索得到解决方案如下：&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Walker in CS</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-06-11T00:00:00+02:00</updated><entry><title>在墙内正确使用CodeSkulptor和Owltest</title><link href="/zai-qiang-nei-zheng-que-shi-yong-codeskulptorhe-owltest.html" rel="alternate"></link><updated>2014-06-11T00:00:00+02:00</updated><author><name>Lunamos</name></author><id>tag:,2014-06-11:zai-qiang-nei-zheng-que-shi-yong-codeskulptorhe-owltest.html</id><summary type="html">&lt;p&gt;在Coursera上选了个Rice University的Principle of Computing，发现Scott Rixner在该课程该Owltest进行测试的方法十分方便，但在墙内无法使用，花了一下午摸索得到免费解决方案如下：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;使用&lt;a href="http://www.lejsq.com/"&gt;乐飞加速器&lt;/a&gt;能够实现CodeSkulptor的保存、模块加载等功能。&lt;/li&gt;
 &lt;li&gt;使用&lt;a href="https://code.google.com/p/goagent/"&gt;GoAgent&lt;/a&gt;配合&lt;a href="http://www.lejsq.com/"&gt;乐飞加速器&lt;/a&gt;能够实现OwlTest的测试功能。GoAgent的模式应当选择“GoAgent PAC”，不然会在测试界面超时。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;另外注意，开了GoAgent之后，CodeSkulptor就不能进行保存和模块import了，所以二者分步进行。&lt;/p&gt;
-&lt;p&gt;终于有了点进行这个课的动力了。&lt;/p&gt;</summary><category term="GoAgent"></category><category term="GFW"></category></entry><entry><title>使用Pelican搭建静态博客</title><link href="/shi-yong-pelicanda-jian-jing-tai-bo-ke.html" rel="alternate"></link><updated>2014-05-16T00:00:00+02:00</updated><author><name>Lunamos</name></author><id>tag:,2014-05-16:shi-yong-pelicanda-jian-jing-tai-bo-ke.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;终于有了点进行这个课的动力了。
+当然，更好的解决方法是使用收费的VPN。&lt;/p&gt;</summary><category term="GoAgent"></category><category term="GFW"></category></entry><entry><title>使用Pelican搭建静态博客</title><link href="/shi-yong-pelicanda-jian-jing-tai-bo-ke.html" rel="alternate"></link><updated>2014-05-16T00:00:00+02:00</updated><author><name>Lunamos</name></author><id>tag:,2014-05-16:shi-yong-pelicanda-jian-jing-tai-bo-ke.html</id><summary type="html">&lt;blockquote&gt;
 &lt;p&gt;“为什么总是忘记？因为缺乏真正的写作。”&lt;/p&gt;
 &lt;p&gt;“请找一个拥有独立博客的男友。”&lt;/p&gt;
 &lt;/blockquote&gt;
