@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'lunamu'
-SITENAME = u'CSWalker'
+SITENAME = u'Walker in CS'
 SITEURL = ''
 THEME = 'bootstrap2'
 TIMEZONE = 'Europe/Paris'
